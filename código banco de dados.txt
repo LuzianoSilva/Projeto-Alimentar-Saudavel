@@ -1,0 +1,43 @@
+-- Criar a tabela produtos
+CREATE TABLE produtos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    tipo TEXT NOT NULL,
+    preco REAL NOT NULL
+);
+
+-- Inserir 10 registros de frutas
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Maçã', 'Fruta', 3.50);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Banana', 'Fruta', 2.20);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Laranja', 'Fruta', 4.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Uva', 'Fruta', 5.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Manga', 'Fruta', 6.50);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Abacaxi', 'Fruta', 8.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Morango', 'Fruta', 9.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Melancia', 'Fruta', 12.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Pera', 'Fruta', 3.75);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Kiwi', 'Fruta', 7.25);
+
+-- Inserir 10 registros de legumes
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Cenoura', 'Legume', 3.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Brócolis', 'Legume', 6.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Couve', 'Legume', 5.50);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Espinafre', 'Legume', 4.75);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Pimentão', 'Legume', 7.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Abóbora', 'Legume', 3.20);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Pepino', 'Legume', 2.80);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Beterraba', 'Legume', 3.50);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Batata', 'Legume', 2.50);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Abobrinha', 'Legume', 3.10);
+
+-- Inserir 10 registros de verduras
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Alface', 'Verdura', 2.50);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Rúcula', 'Verdura', 3.00);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Acelga', 'Verdura', 3.75);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Couve-Flor', 'Verdura', 4.25);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Repolho', 'Verdura', 2.80);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Escarola', 'Verdura', 3.60);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Chicória', 'Verdura', 3.90);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Almeirão', 'Verdura', 3.40);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Espinafre', 'Verdura', 4.50);
+INSERT INTO produtos (nome, tipo, preco) VALUES ('Agrião', 'Verdura', 2.70);
