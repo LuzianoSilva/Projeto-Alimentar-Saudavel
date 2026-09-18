@@ -1,6 +1,16 @@
 # Alimentar Saudável
 
-Aplicação demonstrativa de e-commerce de alimentos saudáveis, desenvolvida para portfólio profissional. O projeto apresenta catálogo dinâmico, carrinho, contas de usuário e persistência de pedidos fictícios. O front-end é servido pelo Flask e os dados são armazenados localmente em SQLite.
+Aplicação demonstrativa de e-commerce de alimentos saudáveis, desenvolvida para estudo e portfólio profissional. O projeto apresenta catálogo dinâmico, carrinho, contas de usuário e persistência de pedidos fictícios. O front-end é servido pelo Flask e os dados são armazenados localmente em SQLite.
+
+## Destaques do projeto
+
+- evolução de um trabalho acadêmico originalmente desenvolvido em PHP para uma arquitetura com Python e Flask;
+- backend Flask com API e banco SQLite reproduzível a partir de schema e seed público;
+- catálogo dinâmico, sem limite fixo de produtos, com busca e paginação;
+- autenticação, gerenciamento de sessões, carrinho e checkout demonstrativo;
+- persistência de pedidos fictícios, validações e medidas básicas de segurança;
+- suíte de testes automatizados com pytest;
+- acessibilidade considerada no desenvolvimento, com navegação por teclado e atenção à compatibilidade com leitores de tela.
 
 ## Escopo demonstrativo
 
@@ -10,7 +20,7 @@ O catálogo inicial possui 30 produtos públicos de demonstração. Essa quantid
 
 ## Evolução tecnológica
 
-A primeira versão do projeto foi criada em PHP como trabalho acadêmico, com páginas e acesso direto a um banco SQLite de produtos. O histórico dessa implementação permanece no repositório para documentar a evolução do projeto e do aprendizado.
+A primeira versão do projeto surgiu como um trabalho acadêmico desenvolvido em PHP, com páginas e acesso direto a um banco SQLite de produtos. Posteriormente, a aplicação foi reconstruída e modernizada para ampliar sua arquitetura e aplicar conhecimentos adquiridos ao longo da evolução profissional. O histórico dessa implementação permanece no repositório como registro dessa trajetória técnica.
 
 A versão atual é uma reconstrução com Python, Flask, SQLite e HTML/CSS/JavaScript. Ela introduz uma arquitetura organizada em backend, API e front-end, catálogo dinâmico, busca, paginação, autenticação, sessões, carrinho, checkout demonstrativo, persistência de pedidos, testes automatizados, práticas básicas de segurança e melhorias de acessibilidade.
 
@@ -25,10 +35,9 @@ A versão atual é uma reconstrução com Python, Flask, SQLite e HTML/CSS/JavaS
 
 ## Tecnologias
 
-- Python e Flask;
-- SQLite;
-- HTML semântico, CSS e JavaScript sem framework;
-- pytest para testes automatizados.
+Python | Flask | SQLite | HTML | CSS | JavaScript | Pytest
+
+O projeto também utiliza Flask-WTF para proteção CSRF e Flask-Limiter para limitação de tentativas de login.
 
 ## Requisitos
 
@@ -93,7 +102,15 @@ Os testes usam bancos temporários e dados claramente fictícios. A suíte tamb�
 
 ## Acessibilidade
 
-A interface foi desenvolvida considerando navegação por teclado, leitores de tela, semântica HTML, labels associados aos campos e feedback acessível. Os fluxos principais não dependem exclusivamente do mouse. A acessibilidade deve continuar sendo verificada durante a evolução do projeto.
+A acessibilidade foi considerada como parte do desenvolvimento da interface, incluindo:
+
+- HTML semântico;
+- associação adequada de labels aos controles;
+- navegação por teclado;
+- mensagens e feedbacks acessíveis;
+- atenção à utilização por leitores de tela.
+
+Os fluxos principais não dependem exclusivamente do mouse. Esses recursos devem continuar sendo verificados e aprimorados durante a evolução do projeto.
 
 ## Estrutura principal
 
