@@ -1,0 +1,39 @@
+# Configuração local e segredos
+.env
+.env.*
+!.env.example
+
+# Bancos e dados locais
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Ambientes virtuais e Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs, temporários e backups
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# IDE e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Anotações locais de desenvolvimento
+implementações adicionais.txt
